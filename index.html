@@ -11,6 +11,12 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/81907d90ec.js" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
     <!-- title -->
     <title>Emergency Hotline</title>
 </head>
@@ -59,20 +65,25 @@
     <section id="content" class="bg-[#f5fff6] grid grid-cols-2">
         <div class="leftSide grid grid-cols-1 lg:grid-cols-3 gap-3">
             <div class="card bg-base-100 lg:w-96 shadow-sm p-4">
-                <div class="contentHead flex justify-between items-center">
-                    <div class="content-logo border p-3 bg-[#FFE3E2] rounded-2xl">
+                <div class="contentHead flex justify-between items-center h-16">
+                    <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
                         <img src="assets/img/emergency.png" alt="" class="w-8 h-auto">
                     </div>
-                    <div class="contentHeart border p-3">
-                        <i class="fa-regular fa-heartgit"></i>
-                    </div>.
+                    <div class="contentHeart p-3">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
 
                 </div>
-                <div class="card-body">
-                    <h2 class="card-title">জাতীয় জরুরি সেবা</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                <div class="content-body">
+                    <h2 class="card-title mt-4 font-semibold hind-madurai-bold">জাতীয় জরুরি সেবা</h2>
+                    <h4 class="sub-tilte text-base max-h-12 text-[#5C5C5C]">National Emergency</h4>
+                    <h2 class="phnNo font-bold text-3xl mt-2">999</h2>
+                    <p class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">সার্বজনীন</p>
+                </div>
+                <div class="content-footer mt-4">
+                    <div class="grid grid-cols-2 gap-2 items-center">
+                        <button class="btn !rounded-[12px]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="btn btn-success !text-white !rounded-[12px]"><i class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
             </div>
