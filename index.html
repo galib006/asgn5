@@ -56,7 +56,7 @@
           <div
             class="flex justify-center gap-1 items-center bg-[#41ff6a48] rounded-full min-w-16 px-3 lg:min-w-32 font-bold"
           >
-            <p class="text-sm">0</p>
+            <p id="heartCount" class="text-sm">0</p>
             <img src="assets/img/heart.png" alt="" class="w-5 lg:w-7 h-auto" />
           </div>
           <div
@@ -101,7 +101,7 @@
     </section>
     <!-- content -->
     
-  <section id="content" class="bg-[#f5fff6]">
+  <section id="content" class="bg-[#f5fff6] py-6">
     <div class="container mx-auto  grid grid-cols-1 lg:grid-cols-4 pt-8 gap-6">
     <!-- Left Side -->
     <div class="leftSide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 col-span-3">
@@ -112,7 +112,7 @@
             <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
           </div>
           <div class="contentHeart p-3">
-            <button><i class="fa-regular fa-heart"></i></button>
+            <button class="heartBtn"><i class="fa-regular fa-heart"></i></button>
           </div>
         </div>
         <div class="content-body">
@@ -139,7 +139,7 @@
     </div>
 
     <!-- Right Side -->
-    <div class="rightSide col-span-1 bg-white rounded-xl p-5">
+    <div class="rightSide col-span-1 bg-white rounded-xl p-5 shadow-sm">
       <div class="rightSideHeader flex justify-between items-center">
         <p class="text-lg font-bold flex items-center gap-2">
           <i class="fa-regular fa-clock"></i> Call History
