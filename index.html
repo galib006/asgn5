@@ -1,101 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwindcss -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- daisyui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/81907d90ec.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/81907d90ec.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- custom style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- title -->
     <title>Emergency Hotline</title>
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <header>
-        <div class="container flex justify-between mx-auto my-3">
-            <!-- logo -->
-            <div class="logo flex items-center">
-                <div class="logImg">
-                    <a href="#"><img src="assets/img/logo.png" alt="Emergency Service Logo" class="w-10 lg:w-12 h-auto" />
-                    </a>
-                </div>
-                <div class="logoText">
-                    <h3 class="text-lg text-[#006747] font-bold leading-none">
-                        Emergency <br /> Service
-                    </h3>
-                </div>
-            </div>
-            <!-- right side -->
-            <div class="rightBar flex justify-between gap-2">
-                <div class="flex justify-center gap-1 items-center bg-[#41ff6a48] rounded-full min-w-16 px-3  lg:min-w-32 font-bold">
-                    <p class="text-sm">0</p>
-                    <img src="assets/img/heart.png" alt="" class="w-5 lg:w-7 h-auto" />
-                </div>
-                <div class="flex justify-center gap-1 items-center bg-[#41ff6a48] rounded-full min-w-16 px-3  lg:min-w-32 font-bold">
-                    <p class="text-sm">100</p>
-                    <img src="assets/img/logo-dark.png" alt="" class="w-5 lg:w-7 h-auto" />
-                </div>
-                <div class="flex justify-center gap-1 items-center bg-[#00A63E] rounded-full min-w-16 px-3  lg:min-w-32 font-bold text-white">
-                    <p class="text-sm"><span>2</span> Copy</p>
-                </div>
-            </div>
+      <div class="container flex justify-between mx-auto my-3">
+        <!-- logo -->
+        <div class="logo flex items-center">
+          <div class="logImg">
+            <a href="#"
+              ><img
+                src="assets/img/logo.png"
+                alt="Emergency Service Logo"
+                class="w-10 lg:w-12 h-auto"
+              />
+            </a>
+          </div>
+          <div class="logoText">
+            <h3 class="text-lg text-[#006747] font-bold leading-none">
+              Emergency <br />
+              Service
+            </h3>
+          </div>
         </div>
+        <!-- right side -->
+        <div class="rightBar flex justify-between gap-2">
+          <div
+            class="flex justify-center gap-1 items-center bg-[#41ff6a48] rounded-full min-w-16 px-3 lg:min-w-32 font-bold"
+          >
+            <p class="text-sm">0</p>
+            <img src="assets/img/heart.png" alt="" class="w-5 lg:w-7 h-auto" />
+          </div>
+          <div
+            class="flex justify-center gap-1 items-center bg-[#41ff6a48] rounded-full min-w-16 px-3 lg:min-w-32 font-bold"
+          >
+            <p class="text-sm">100</p>
+            <img
+              src="assets/img/logo-dark.png"
+              alt=""
+              class="w-5 lg:w-7 h-auto"
+            />
+          </div>
+          <div
+            class="flex justify-center gap-1 items-center bg-[#00A63E] rounded-full min-w-16 px-3 lg:min-w-32 font-bold text-white"
+          >
+            <p class="text-sm"><span>2</span> Copy</p>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- banner -->
-    <section id="banner" class="bg-gradient-to-r from-[#013223]  via-[#006747] to-[#013223] py-5 px-5">
-        <div class="bannerLogo">
-            <img src="assets/img/logo-dark.png" alt="" class="w-24 h-auto mx-auto">
-        </div>
-        <h2 class="text-center text-2xl lg:text-5xl font-bold my-4 text-white">জরুরি সেবা ডিরেক্টরি</h2>
-        <p class="text-center text-sm sm:text-base lg:text-xl font-semibold mt-4 text-white">Goverment Emergency Services at Your Fingertip - A Project by Goverment of the People's Republic of Bangladesh</p>
+    <section
+      id="banner"
+      class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-5 px-5"
+    >
+      <div class="bannerLogo">
+        <img
+          src="assets/img/logo-dark.png"
+          alt=""
+          class="w-24 h-auto mx-auto"
+        />
+      </div>
+      <h2 class="text-center text-2xl lg:text-5xl font-bold my-4 text-white">
+        জরুরি সেবা ডিরেক্টরি
+      </h2>
+      <p
+        class="text-center text-sm sm:text-base lg:text-xl font-semibold mt-4 text-white"
+      >
+        Goverment Emergency Services at Your Fingertip - A Project by Goverment
+        of the People's Republic of Bangladesh
+      </p>
     </section>
-    <section id="content" class="bg-[#f5fff6] grid grid-cols-2">
-        <div class="leftSide grid grid-cols-1 lg:grid-cols-3 gap-3">
-            <div class="card bg-base-100 lg:w-96 shadow-sm p-4">
-                <div class="contentHead flex justify-between items-center h-16">
-                    <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
-                        <img src="assets/img/emergency.png" alt="" class="w-8 h-auto">
-                    </div>
-                    <div class="contentHeart p-3">
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-
-                </div>
-                <div class="content-body">
-                    <h2 class="card-title mt-4 font-semibold hind-madurai-bold">জাতীয় জরুরি সেবা</h2>
-                    <h4 class="sub-tilte text-base max-h-12 text-[#5C5C5C]">National Emergency</h4>
-                    <h2 class="phnNo font-bold text-3xl mt-2">999</h2>
-                    <p class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">সার্বজনীন</p>
-                </div>
-                <div class="content-footer mt-4">
-                    <div class="grid grid-cols-2 gap-2 items-center">
-                        <button class="btn !rounded-[12px]"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button class="btn btn-success !text-white !rounded-[12px]"><i class="fa-solid fa-phone"></i> Call</button>
-                    </div>
-                </div>
-            </div>
-
+    <!-- content -->
+    
+  <section id="content" class="bg-[#f5fff6]">
+    <div class="container mx-auto  grid grid-cols-1 lg:grid-cols-4 pt-8 gap-6">
+    <!-- Left Side -->
+    <div class="leftSide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 col-span-3">
+      <!-- Single Card -->
+      <div class="card bg-base-100 shadow-sm p-4 rounded-xl">
+        <div class="contentHead flex justify-between items-center h-16">
+          <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+            <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+          </div>
+          <div class="contentHeart p-3">
+            <button><i class="fa-regular fa-heart"></i></button>
+          </div>
         </div>
-        <div class="rightSide">
-
+        <div class="content-body">
+          <h2 class="mt-4 font-semibold hind-madurai-bold text-lg">
+            জাতীয় জরুরি সেবা
+          </h2>
+          <p class="sub-title text-base text-[#5C5C5C]">National Emergency</p>
+          <h3 class="phnNo font-bold text-3xl mt-2">999</h3>
+          <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+            সার্বজনীন
+          </span>
         </div>
-    </section>
+        <div class="content-footer mt-4">
+          <div class="grid grid-cols-2 gap-2">
+            <button class="btn rounded-xl">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button class="btn btn-success text-white rounded-xl">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="rightSide col-span-1 bg-white rounded-xl p-5">
+      <div class="rightSideHeader flex justify-between items-center">
+        <p class="text-lg font-bold flex items-center gap-2">
+          <i class="fa-regular fa-clock"></i> Call History
+        </p>
+        <button class="btn btn-success text-white rounded-full">Clear</button>
+      </div>
+      <!-- single content -->
+      <div class="rightSideCont mt-4">
+        <div class="singleCont bg-[#fafafa] rounded-xl p-5 flex items-center justify-between">
+          <div class="rightcontHead">
+            <h3 class="text-lg font-semibold hind-madurai-semibold">জাতীয় জরুরি সেবা</h3>
+            <p class="phnNo text-lg text-[#5C5C5C]">999</p>
+          </div>
+          <div class="contentArea">
+            <p class="time text-lg">11:36:58</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightSideCont mt-4">
+        <div class="singleCont bg-[#fafafa] rounded-xl p-5 flex items-center justify-between">
+          <div class="rightcontHead">
+            <h3 class="text-lg font-semibold hind-madurai-semibold">জাতীয় জরুরি সেবা</h3>
+            <p class="phnNo text-lg text-[#5C5C5C]">999</p>
+          </div>
+          <div class="contentArea">
+            <p class="time text-lg">11:36:58</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
 
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
