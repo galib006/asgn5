@@ -1,6 +1,7 @@
 let HeartBtns = document.querySelectorAll('.heartBtn');
 let copys = document.querySelectorAll('.copy');
 let calls = document.querySelectorAll('.call');
+let clearSideHistory = document.getElementById('clearSideHistory');
 
 
 let copyCount = document.getElementById('heartCount');
@@ -71,11 +72,12 @@ for (let call of calls) {
                         </div>
         
         
-        
         `;
         sideBody.appendChild(singleContent)
-
-
-
     })
 }
+clearSideHistory.addEventListener('click', function() {
+    let sideBody = document.querySelector('.rightContetBody');
+    return sideBody.innerHTML = "";
+
+})

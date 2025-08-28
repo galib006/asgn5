@@ -55,3 +55,12 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+.card .content-logo {
+    transition: 1s;
+}
+
+.card:hover .content-logo {
+    background: #DFEFFF;
+    transition: 1s;
+}

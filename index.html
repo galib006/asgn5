@@ -67,96 +67,356 @@
     <!-- content -->
 
     <section id="content" class="bg-[#f5fff6] py-6">
-        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 pt-8 gap-6">
-            <!-- Left Side -->
-            <div class="leftSide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 col-span-3">
-                <!-- /////////////////////////////////////// -->
-                <!-- Single Card -->
-                <div class="card bg-base-100 shadow-sm p-4 rounded-xl">
-                    <div class="contentHead flex justify-between items-center h-16">
-                        <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
-                            <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 pt-8 gap-6">
+                <!-- Left Side -->
+                <div class="leftSide gap-4 md:col-span-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
                         </div>
-                        <div class="contentHeart p-3">
-                            <button class="heartBtn">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                জাতীয় জরুরি সেবা
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                National Emergency
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">999</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  সার্বজনীন
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="content-body">
-                        <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
-                            জাতীয় জরুরি সেবা
-                        </h2>
-                        <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
-                            National Emergency
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/police.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                পুলিশ
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Police
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">999</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  পুলিশ
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/fire-service.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                ফায়ার সার্ভিস
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Fire Service
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">999</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  ফায়ার সার্ভিস
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/ambulance.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                অ্যাম্বুলেন্স
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Ambulance
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">1994-999999</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  স্বাস্থ্য
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                নারী ও শিশু সহায়তা
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Women & Child Helpline
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">109</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  সহায়তা
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                দুদক
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Anti-Corruption
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">106</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  সরকারি
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                বিদ্যুৎ বিভ্রাট
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Electricity Outage
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">16216</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  বিদ্যুৎ
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/brac.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                ব্র্যাক
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Brac
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">16445</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  এনজিও
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                    <!-- /////////////////////////////////////// -->
+                    <!-- Single Card -->
+                    <div class="card bg-base-100 shadow-sm p-4 rounded-xl max-h-80">
+                        <div class="contentHead flex justify-between items-center h-16">
+                            <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
+                                <img src="assets/img/Bangladesh-Railway.png" alt="Emergency" class="w-8 h-auto" />
+                            </div>
+                            <div class="contentHeart p-3">
+                                <button class="heartBtn">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="content-body">
+                            <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
+                                বাংলাদেশ রেলওয়ে
+                            </h2>
+                            <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
+                                Bangladesh Railway
+                            </p>
+                            <h3 class="phnNo font-bold text-3xl mt-2">163</h3>
+                            <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
+                  পরিবহন
+                </span>
+                        </div>
+                        <div class="content-footer mt-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <button class="btn rounded-xl copy">
+                    <i class="fa-regular fa-copy"></i> Copy
+                  </button>
+                                <button class="btn btn-success text-white rounded-xl call">
+                    <i class="fa-solid fa-phone"></i> Call
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                </div>
+                <!-- ///////////////////////////////////////// -->
+                <!-- Right Side -->
+                <div class="rightSide col-span-1 bg-white rounded-xl p-5 shadow-sm">
+                    <div class="rightSideHeader flex justify-between items-center">
+                        <p class="text-lg font-bold flex items-center gap-2">
+                            <i class="fa-regular fa-clock"></i> Call History
                         </p>
-                        <h3 class="phnNo font-bold text-3xl mt-2">999</h3>
-                        <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
-                সার্বজনীন
-              </span>
+                        <button class="btn btn-success text-white rounded-full" id="clearSideHistory">
+                Clear
+              </button>
                     </div>
-                    <div class="content-footer mt-4">
-                        <div class="grid grid-cols-2 gap-2">
-                            <button class="btn rounded-xl copy">
-                  <i class="fa-regular fa-copy"></i> Copy
-                </button>
-                            <button class="btn btn-success text-white rounded-xl call">
-                  <i class="fa-solid fa-phone"></i> Call
-                </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- /////////////////////////////////////// -->
-                <!-- Single Card -->
-                <div class="card bg-base-100 shadow-sm p-4 rounded-xl">
-                    <div class="contentHead flex justify-between items-center h-16">
-                        <div class="content-logo p-3 bg-[#FFE3E2] rounded-2xl">
-                            <img src="assets/img/emergency.png" alt="Emergency" class="w-8 h-auto" />
-                        </div>
-                        <div class="contentHeart p-3">
-                            <button class="heartBtn">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                        </div>
-                    </div>
-                    <div class="content-body">
-                        <h2 class="mt-4 font-semibold hind-madurai-bold text-lg copyTitle">
-                            dfdfdf 44dfgdf
-                        </h2>
-                        <p class="sub-title text-base text-[#5C5C5C] cardSubtitle">
-                            44455
-                        </p>
-                        <h3 class="phnNo font-bold text-3xl mt-2">44645</h3>
-                        <span class="px-3 py-2 rounded-full bg-[#e5e5e5] inline-block mt-1 text-[#5C5C5C] text-sm hind-madurai-regular">
-                fdfdafe
-              </span>
-                    </div>
-                    <div class="content-footer mt-4">
-                        <div class="grid grid-cols-2 gap-2">
-                            <button class="btn rounded-xl copy">
-                  <i class="fa-regular fa-copy"></i> Copy
-                </button>
-                            <button class="btn btn-success text-white rounded-xl call">
-                  <i class="fa-solid fa-phone"></i> Call
-                </button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- ///////////////////////////////////////// -->
-            <!-- Right Side -->
-            <div class="rightSide col-span-1 bg-white rounded-xl p-5 shadow-sm">
-                <div class="rightSideHeader flex justify-between items-center">
-                    <p class="text-lg font-bold flex items-center gap-2">
-                        <i class="fa-regular fa-clock"></i> Call History
-                    </p>
-                    <button class="btn btn-success text-white rounded-full">
-              Clear
-            </button>
-                </div>
-                <div class="rightContetBody">
-
+                    <div class="rightContetBody"></div>
                 </div>
             </div>
         </div>
